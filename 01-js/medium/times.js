@@ -7,10 +7,7 @@ Try running it for
 Hint - use Date class exposed in JS
 */
 
-// function calculateTime(n) {
-//     return 0.01;
-// }
-function sumAll(n){
+function calculateTime(n){
     var startTime = new Date().getTime();
     var sum = 0;
 for(var i = 1; i<=n; i++){
